@@ -11,7 +11,7 @@ Commande pour exécuter le fichier test : python -m pytest test_quadtree.py -x
 python 3.11
 Pour obtenir les dépendances, executer :
 
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 
 # Exercices ludiques en python
 
