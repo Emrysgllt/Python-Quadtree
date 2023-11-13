@@ -1,6 +1,6 @@
-# Exercices en python
+# Exercices python
 
-Pratiquer python mais également découvrir quelques pans annexes de l'informatique en général.
+Pratique python mais également pour découvrir quelques pans annexes de l'informatique en général.
 Ces exercices sont issus d'un livre réalisé par Pascal Lafourcade et Malika More.
 
 ## Exercice : Arbre quaternaire
@@ -41,15 +41,12 @@ class TkQuadTree(QuadTree):
 
 Assurez-vous que la lecture du fichier se passe sans encombre, en lançant les tests unitaires :
 ```shell
-python -m pytest tests/test_quadtree.py -x
+python -m pytest test/test_quadtree.py -x
 ```
 
-A partir du fichier `files/quadtree.txt`, générez le QuadTree associé. 
+A partir du fichier `file/quadtree_easy.txt`, générez le QuadTree associé. 
 Puis, réalisez une interface graphique en utilisant la classe `TkQuadTree`, permettant de la représenter. 
 
-Bonus : 
-Remplacez les valeurs binaires des feuilles par des valeurs numériques, combinez celà à un [tileset](https://docs.godotengine.org/en/stable/_images/using_tilesets_kenney_abstract_platformer_tile_sheet.webp). 
-Et voilà, vous avez généré votre tilemap par le biais d'un quadtree.
 
 ## Livraison :
 Livrez votre projet via un dépôt git et communiquez l'url de votre dépôt au formateur. 
@@ -57,5 +54,3 @@ Vous devrez livrer ce projet pour le dernier jour du module au sein de votre éc
 
 Il s'agit donc du 14 (13h) ou du 15 Novembre 2023 (18h) en fonction de votre groupe. La date et heure du commit faisant foi.
 Vous pouvez adapter les tests ou les noms des méthodes, attributs en fonction de votre implémentation
-
-terface graphique finie (TK, Pygame ou autre) et implémentation propre
