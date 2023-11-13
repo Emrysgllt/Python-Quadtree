@@ -7,7 +7,6 @@ Un fichier en .py éxectue deux fichiers "quadtree_easy.txt" / "quadtree.txt", s
 L'affichage du QuadTree n'est pas en place.
 
 Commande pour éxecuter le fichier test : python -m pytest test_quadtree.py -x
-                                         python  test_quadtree.py
 
 Le module pytest est utilisé.
 
