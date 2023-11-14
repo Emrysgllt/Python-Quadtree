@@ -41,7 +41,7 @@ class TkQuadTree(QuadTree):
 
 Assurez-vous que la lecture du fichier se passe sans encombre, en lançant les tests unitaires :
 ```shell
-python -m pytest test/test_quadtree.py -x
+python -m pytest test/test_quadtree_easy.py -x
 ```
 
 A partir du fichier `file/quadtree_easy.txt`, générez le QuadTree associé. 
